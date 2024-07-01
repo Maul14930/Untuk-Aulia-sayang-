@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Aul, Cahaya dalam Hidupku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Halaman Utama -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Untuk Aul, Cahaya dalam Hidupku</h1>
+            <p>Satu Tahun Cinta dan Harapan</p>
+            <button onclick="scrollToSection('#message')">Baca Pesanku</button>
+        </div>
+    </section>
+
+    <!-- Halaman Pesan -->
+    <section class="message" id="message">
+        <h2>Pesan Cinta Maul untuk Aul</h2>
+        <p>
+            Hai Aul sayang,<br><br>
+            Kamu tahu, setiap hari aku selalu merasa bersyukur karena kamu ada dalam hidupku. Kangen banget sama kamu! 😊 Tapi, di balik semua kerinduan itu, aku punya pesan untukmu:<br><br>
+            Semangat terus ya dalam belajar, ngaji, dan mengejar cita-citamu. Aku tahu betapa kuat dan hebatnya kamu. Jangan ragu untuk bilang ke aku jika kamu merasa capek, karena aku selalu ada untukmu. I love you cantik.<br><br>
+            Maaf jika saat ini aku belum bisa memenuhi semua keinginanmu, tapi aku janji akan ada waktunya aku bisa mewujudkannya. Aku berusaha menjadi yang terbaik untukmu. Semoga kamu selalu bahagia.<br><br>
+            Selamat kamu sudah menjadi pemenang hatiku. 14 April 2024 akan menjadi hari terakhir aku jatuh cinta, dan selanjutnya keputusan ada di tanganmu—mau menemani aku ke pelaminan atau aku mendukungmu untuk menemukan yang lebih baik dari aku.<br><br>
+            Ayo, kita kejar impian kita masing-masing dan menjadi versi terbaik dari diri kita sendiri. Aku akan selalu ada di sini untukmu, tidak peduli apa pun yang terjadi.<br><br>
+            I love you cantik,<br>
+            Maul<br><br>
+            ❤️
+        </p>
+        <button onclick="scrollToSection('#memories')">Lihat Kenangan</button>
+    </section>
+
+    <!-- Halaman Kenangan -->
+    <section class="memories" id="memories">
+        <h2>Kenangan Indah Bersama Aul</h2>
+        <p>Inilah beberapa kenangan indah yang kita bagikan bersama. Setiap gambar adalah cerita dan momen yang membuat hati kita semakin dekat. Semoga ini bisa mengingatkan kita akan betapa bahagianya saat kita bersama.</p>
+        <div class="gallery">
+            <img src="images/flower.jpg" alt="Kenangan 1">
+            <img src="images/flower.jpg" alt="Kenangan 2">
+            <img src="images/flower.jpg" alt="Kenangan 3">
+            <img src="images/flower.jpg" alt="Kenangan 4">
+        </div>
+        <button onclick="scrollToSection('#dreams')">Lihat Harapan</button>
+    </section>
+
+    <!-- Halaman Harapan -->
+    <section class="dreams" id="dreams">
+        <h2>Mimpi dan Harapan di Masa Depan</h2>
+        <p>
+            Di masa depan, aku membayangkan kita akan mencapai semua impian kita bersama. Aku ingin melihat kamu bahagia dan sukses dalam segala hal yang kamu lakukan. Mari kita terus melangkah maju, menjadi versi terbaik dari diri kita sendiri, dan suatu hari nanti, kita akan bertemu lagi di pelaminan atau melihat kamu bahagia dengan jalan hidupmu.<br><br>
+            Selalu ingat, aku akan selalu mendukungmu, tidak peduli apa pun yang terjadi.
+        </p>
+        <button onclick="scrollToSection('#goodbye')">Selamat Tinggal Sementara</button>
+    </section>
+
+    <!-- Halaman Penutup -->
+    <section class="goodbye" id="goodbye">
+        <h2>Selamat Tinggal Sementara, Aul</h2>
+        <p>
+            Selamat tinggal untuk saat ini, Aul. Ingatlah bahwa meskipun kita berjauhan, kamu selalu ada dalam hatiku. Semoga kita dapat bertemu lagi di masa depan dengan lebih baik.<br><br>
+            Jangan pernah berubah, dan teruslah bersinar. Aku sayang kamu.<br><br>
+            ❤️<br>
+            Maul
+        </p>
+        <button onclick="scrollToSection('#hero')">Kembali ke Halaman Utama</button>
+    </section>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.querySelector(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
