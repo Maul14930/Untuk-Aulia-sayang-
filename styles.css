@@ -1,0 +1,164 @@
+/* Reset dan Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #d63f7f;
+}
+
+/* Halaman Utama */
+.hero {
+    background: url('images/header-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero button {
+    background-color: #d63f7f;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero button:hover {
+    background-color: #b92c5b;
+}
+
+/* Halaman Pesan */
+.message {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.message h2 {
+    margin-bottom: 1rem;
+}
+
+.message p {
+    margin-bottom: 2rem;
+}
+
+.message button {
+    background-color: #d63f7f;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.message button:hover {
+    background-color: #b92c5b;
+}
+
+/* Halaman Kenangan */
+.memories {
+    background: url('images/starry-night.jpg') no-repeat center center/cover;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.memories h2 {
+    margin-bottom: 1rem;
+}
+
+.memories p {
+    margin-bottom: 1.5rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+/* Halaman Harapan */
+.dreams {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.dreams h2 {
+    margin-bottom: 1rem;
+}
+
+.dreams p {
+    margin-bottom: 1.5rem;
+}
+
+.dreams button {
+    background-color: #d63f7f;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.dreams button:hover {
+    background-color: #b92c5b;
+}
+
+/* Halaman Penutup */
+.goodbye {
+    background: url('images/sunset.jpg') no-repeat center center/cover;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.goodbye h2 {
+    margin-bottom: 1rem;
+}
+
+.goodbye p {
+    margin-bottom: 1.5rem;
+}
+
+.goodbye button {
+    background-color: #d63f7f;
+    color: white;
+    border: none
+  
